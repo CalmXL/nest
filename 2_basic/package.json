@@ -1,0 +1,20 @@
+{
+  "name": "2_basic",
+  "version": "1.0.0",
+  "description": "1. @nestjs/common - 包含了常规的 Nest 的函数和类封装\r 2. @nestjs/core   - Nest 的编译运行的核心库\r 3. @nestjs/platform-express - 底层 http 框架的平台安装\r 4. reflect-metadata - 装饰器的封装与功能的支持\r 5. typescript - Ts 语法支持\r 6. rxjs - 利用观察着模式处理 Nest 的事件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/core": "^10.3.10",
+    "@nestjs/platform-express": "^10.3.10",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.5.3"
+  }
+}
