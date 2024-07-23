@@ -1,0 +1,8 @@
+post http://localhost:3000/teacher/add
+Content-Type: application/json
+
+{
+  "name": "teacher liu",
+  "age": 26,
+  "duration": 10
+}
